@@ -4,5 +4,5 @@ compiler:
  - clang
  - gcc
  script:
- - gcc pyramid.c -o pyramid  // we can use gcc instead of clang too
+ - gcc -o pyramid pyramid.c   // we can use gcc instead of clang too
  - ./pyramid 
